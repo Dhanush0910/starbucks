@@ -375,6 +375,12 @@ header{
         font-size: 0.9rem;
     }
 }
+@media(max-width: 418px){
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media(max-width: 351px){
     .links{
         display: flex;
